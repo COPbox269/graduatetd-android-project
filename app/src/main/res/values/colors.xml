@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="gray">#808080</color>
+    <color name="white_smoke">#F5F5F5</color>
+    <color name="gray_light">#EEEEEE</color>
+    <color name="milk">#fdfff5</color>
+    <color name="mint_cream">#f5fffa</color>
+
+    <color name="my_app_primary_color">#FF000000</color>
+    <color name="my_app_secondary_color">#FF000000</color>
+    <color name="my_app_background_color">#FF000000</color>
+    <color name="my_app_error_color">#FF000000</color>
+
+    <!-- All blue hex codes -->
+    <color name="purple_700">#FF3700B3</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="true_blue">#0073cf</color>
+    <color name="neon_blue">#4d4dff</color>
+    <color name="electric_blue">#0892d0</color>
+    <color name="duke_blue">#00009c</color>
+    <color name="carolina_blue">#99badd</color>
+    <color name="steel_blue">#4682b4</color>
+    <color name="oxford_blue">#002147</color>
+    <color name="light_blue">#add8e6</color>
+    <color name="pacific_blue">#1ca9c9</color>
+    <color name="phtalo_blue">#000f89</color>
+    <color name="navy">#000080</color>
+    <color name="test">#940885F3</color>
+    <color name="midnight_blue">#003366</color>
+    <color name="baby_blue">#89CFF0</color>
+    <!-- End of all blue hex codes -->
+
+    <!-- All red hex codes -->
+    <color name="red">#ff0000</color>
+    <color name="orange_red">#ff4500</color>
+    <color name="crimson_red">#dc143c</color>
+    <color name="american_rose_red">#ff033e</color>
+    <!-- End of all red hex codes -->
+
+    <!-- All green hex codes -->
+    <color name="green">#008000</color>
+    <color name="lime">#00ff00</color>
+    <color name="lime_green">#32cd32</color>
+    <color name="neon_green">#00ff00</color>
+    <color name="spring_green">#00ff7f</color>
+    <color name="ufo_green">#3cd070</color>
+    <!-- End green all red hex codes -->
+</resources>

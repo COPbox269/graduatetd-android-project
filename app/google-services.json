@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "841677529716",
+    "firebase_url": "https://nodemcu-32-default-rtdb.firebaseio.com",
+    "project_id": "nodemcu-32",
+    "storage_bucket": "nodemcu-32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841677529716:android:2de22391038ff21395e721",
+        "android_client_info": {
+          "package_name": "com.codboxer.finallayouttest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841677529716-8f8fusl2d3cglh47260ijksinlbsepk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqtwKdhCisBxFBCdhnhDoHvTWZJ6Xk4Hk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841677529716-8f8fusl2d3cglh47260ijksinlbsepk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

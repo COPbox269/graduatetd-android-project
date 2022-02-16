@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.TimerScheduleActivity"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:id="@+id/image_button_cancel_activity"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:tint="@color/navy"
+            app:srcCompat="@drawable/ic_baseline_close_24"
+            tools:ignore="NestedWeights"
+            android:layout_gravity="center|top" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Timer Schedule"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:gravity="center|top"
+            android:layout_marginTop="15dp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:id="@+id/image_button_done_activity"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:tint="@color/navy"
+            app:srcCompat="@drawable/ic_baseline_done_24"
+            android:layout_gravity="center|top" />
+
+    </LinearLayout>
+
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_picker"
+        android:timePickerMode="spinner"
+        tools:targetApi="lollipop"
+        android:layout_gravity="center"
+        android:scrollIndicators="none"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:text="Control Mode"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            tools:ignore="NestedWeights,RtlHardcoded"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/radio_group_control"
+            android:gravity="center|right"
+            tools:ignore="RtlHardcoded"
+            android:layout_marginRight="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio_button_turn_on"
+                android:text="Turn on"
+                android:textSize="15sp"
+                android:checked="true"
+                android:buttonTint="@color/navy"
+                tools:targetApi="lollipop"
+                android:layout_marginRight="16dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio_button_turn_off"
+                android:text="Turn off"
+                android:textSize="15sp"
+                android:buttonTint="@color/navy"
+                tools:targetApi="lollipop" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/text_view_relay"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text="Device"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:drawableRightCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+            tools:ignore="RtlHardcoded"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:id="@+id/text_view_relay_chosen"
+            app:layout_anchor="@id/text_view_relay"
+            app:layout_anchorGravity="center|right"
+            android:gravity="center|right"
+            android:textSize="16sp"
+            tools:ignore="RtlHardcoded,SmallSp"
+            android:singleLine="false"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/text_view_repeat"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text="Repeating"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:drawableRightCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+            tools:ignore="RtlHardcoded"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/text_view_repeat_chosen"
+            app:layout_anchor="@id/text_view_repeat"
+            app:layout_anchorGravity="center|right"
+            android:gravity="center|right"
+            android:textSize="15sp"
+            tools:ignore="RtlHardcoded,SmallSp"
+            android:layout_marginRight="60dp"
+            android:layout_marginEnd="60dp" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>

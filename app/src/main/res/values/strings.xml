@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Weekdays -->
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <!-- End Weekdays -->
+
+    <!-- Relays -->
+    <string name="relay1">Relay 1</string>
+    <string name="relay2">Relay 2</string>
+    <string name="relay3">Relay 3</string>
+    <string name="relay4">Relay 4</string>
+    <!-- End relays -->
+
+    <!-- Radio group: Repeat mode -->
+    <string name="repeat_once">Once</string>
+    <string name="repeat_daily">Daily</string>
+    <string name="repeat_weekday_option">Weekday option</string>
+    <!-- End repeat mode -->
+
+<!--    RealTime Database Path-->
+    <string name="RELAY1_PATH">relay-1</string>
+    <string name="RELAY2_PATH">relay-2</string>
+    <string name="RELAY3_PATH">relay-3</string>
+    <string name="RELAY4_PATH">relay-4</string>
+    <string name="CONTROL_PATH">control</string>
+    <string name="TIMER_PATH">timer</string>
+    <string name="NAME_RELAY_PATH">name</string>
+    <string name="STATUS_RELAY_PATH">status</string>
+
+    <!--    End RealTime Database Path-->
+
+
+<!--    Speech Input-->
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="speech_prompt">Say something…</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+    <!--End -->
+
+
+    <!--    Spinner Array Name Adapter-->
+    <string-array name="actions_array">
+        <item>NONE</item>
+        <item>ON</item>
+        <item>OFF</item>
+    </string-array>
+    <!--End -->
+
+</resources>

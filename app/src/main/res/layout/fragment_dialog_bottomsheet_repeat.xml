@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/good_action">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_button_once"
+            android:layout_weight="1"
+            android:layoutDirection="rtl"
+            android:text="@string/repeat_once"
+            android:textSize="25sp"
+            tools:ignore="RtlCompat"
+            android:buttonTint="@color/navy"
+            tools:targetApi="lollipop"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_button_daily"
+            android:layout_weight="1"
+            android:layoutDirection="rtl"
+            android:text="@string/repeat_daily"
+            android:textSize="25sp"
+            tools:ignore="RtlCompat"
+            android:buttonTint="@color/navy"
+            tools:targetApi="lollipop"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp" />
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radio_button_weekday_option"
+                android:layout_width="match_parent"
+                android:layout_height = "match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:buttonTint="@color/navy"
+                android:layoutDirection="rtl"
+                android:text="@string/repeat_weekday_option"
+                android:textSize="25sp"
+                tools:ignore="RtlCompat"
+                tools:targetApi="lollipop" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:id="@+id/text_view_chosen_weekday"
+                app:layout_anchor="@id/radio_button_weekday_option"
+                app:layout_anchorGravity="center|right"
+                android:layout_marginRight="50dp"
+                android:gravity="center|right"
+                android:textSize="15sp"
+                tools:ignore="SmallSp" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>

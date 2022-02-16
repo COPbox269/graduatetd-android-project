@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragment.ControlFragment"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:id="@+id/id_fragment_control">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:baselineAligned="false">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            tools:ignore="NestedWeights">
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_1_control_relay_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:thumb="@drawable/switch_thumb_fragment_control"
+                app:track="@drawable/switch_track_fragment_control"
+                android:layout_centerInParent="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="100dp"/>
+
+            <com.codboxer.finallayouttest.util.ListenerEditText
+                android:id="@+id/edit_text_name_1_relay_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/relay1"
+                android:textSize="18sp"
+                android:gravity="center|top"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="8dp"
+                android:maxLength="18"
+                android:singleLine="true"
+                android:cursorVisible="true"
+                android:inputType="text"
+                android:imeOptions="actionDone"
+                android:background="@android:color/transparent"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            tools:ignore="NestedWeights">
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_2_control_relay_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:thumb="@drawable/switch_thumb_fragment_control"
+                app:track="@drawable/switch_track_fragment_control"
+                android:layout_centerInParent="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="100dp"/>
+
+            <com.codboxer.finallayouttest.util.ListenerEditText
+                android:id="@+id/edit_text_name_2_relay_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/relay2"
+                android:textSize="18sp"
+                android:gravity="center|top"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="8dp"
+                android:maxLength="18"
+                android:singleLine="true"
+                android:cursorVisible="true"
+                android:inputType="text"
+                android:imeOptions="actionDone"
+                android:background="@android:color/transparent"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/image_button_mic"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/ic_baseline_mic_24"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            tools:ignore="NestedWeights">
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_3_control_relay_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="100dp"
+                android:thumb="@drawable/switch_thumb_fragment_control"
+                app:track="@drawable/switch_track_fragment_control" />
+
+            <com.codboxer.finallayouttest.util.ListenerEditText
+                android:id="@+id/edit_text_name_3_relay_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/relay3"
+                android:textSize="18sp"
+                android:gravity="center|top"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="8dp"
+                android:maxLength="18"
+                android:singleLine="true"
+                android:cursorVisible="true"
+                android:inputType="text"
+                android:imeOptions="actionDone"
+                android:background="@android:color/transparent" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            tools:ignore="NestedWeights">
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_4_control_relay_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="100dp"
+                android:cursorVisible="false"
+                android:thumb="@drawable/switch_thumb_fragment_control"
+                app:track="@drawable/switch_track_fragment_control" />
+
+            <com.codboxer.finallayouttest.util.ListenerEditText
+                android:id="@+id/edit_text_name_4_relay_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/relay4"
+                android:textSize="18sp"
+                android:gravity="center|top"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="8dp"
+                android:maxLength="18"
+                android:singleLine="true"
+                android:cursorVisible="true"
+                android:inputType="text"
+                android:imeOptions="actionDone"
+                android:background="@android:color/transparent"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
